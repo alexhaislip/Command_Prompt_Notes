@@ -1,0 +1,52 @@
+Shortcuts for Moving Around
+You can always click with your mouse to place the cursor anywhere you want in the Command Prompt. But if you like to keep your hands on the keys, we’ve got you covered with these shortcuts for moving around:
+
+Home/End: Move the insertion point to the beginning or end of the current line (respectively).
+Ctrl+Left/Right Arrow: Move the insertion point to the beginning of the previous or next word (respectively) on the current line.
+Ctrl+Up/Down Arrow: Scroll the page up or down without moving the insertion point.
+Ctrl+M: Enter or exit Mark Mode. While in mark mode, you can use all four arrow keys to move your cursor around the window. Note that you can always use the Left and Right arrow keys to move your insertion point left or right on the current line, whether Mark Mode is on or off.
+Once you get used to moving around with the keyboard, you might even find it faster than switching to the mouse and back again.
+
+Shortcuts for Selecting Text
+cmds_2
+
+Since text is the currency of the Command Prompt, it shouldn’t surprise you to learn that there are all kinds of keyboard shortcuts available for selecting text on the screen. Different shortcuts allow you to select text a character, a word, a line, or even a whole screen at a time.
+
+Ctrl+A: Selects all text on the current line. Press Ctrl+A again to select all text in the CMD buffer.
+Shift+Left Arrow/Right Arrow: Extend current selection by one character to the left or right.
+Shift+Ctrl+Left Arrow/Right Arrow: Extend current selection by one word to the left or right.
+Shift+Arrow Up/Arrow Down: Extend current selection by one line up or down. The selection extends to the same position in the previous or next line as the position of the insertion point in the current line.
+Shift+Home: Extend current selection to the beginning of a command. Press Shift+Home again to include the path (e.g., C:\Windows\system32) in the selection.
+Shift+End: Extend current selection to the end of the current line.
+Ctrl+Shift+Home/End: Extent current selection to the beginning or end of the screen buffer (respectively).
+Shift+Page Up/Page Down: Extend current selection by one page up or down.
+It may seem like a lot to remember when you can just select text using your mouse and, obviously, whichever way works best for you is the right way to do things. But we’re guessing that if you give yourself a bit of time to get used to the keyboard shortcuts, you might find that it’s actually easier than going for the mouse every time.
+
+Shortcuts for Manipulating Text
+cmds_3
+
+Once you’ve selected text, it makes sense that you’d need to be able to manipulate what you’ve got selected. The following commands give you quick ways to copy, paste, and delete selections.
+
+Ctrl+C (or Ctrl+Insert): Copy currently selected text. Note that this only works if you some text selected. If you don’t, then Ctrl+C aborts the current command (which we describe more in just a bit).
+F2 and then a letter: Copy text to the right of the insertion point up to the letter you typed.
+Ctrl+V (or Shift+Insert): Paste text from the clipboard.
+Backspace: Delete the character to the left of the insertion point.
+Ctrl+Backspace: Delete the word to the left of the insertion point.
+Tab: Autocomplete a folder name.
+Escape: Delete the current line of text.
+Insert: Toggle insertion mode. When insertion mode is on, anything you type is inserted at your current location. When it’s off, anything you type overwrites what’s already there.
+Ctrl+Home/End: Delete text from the insertion point to the beginning or end of the current line.
+Ctrl+Z: Marks the end of a line. Text you type after that point on that line will be ignored.
+Obviously, the shortcuts for copying and pasting are the most welcome additions in Windows 10. Hopefully, though, you can get some use out of the others.
+
+Shortcuts for Working with the Command History
+Finally, the Command Prompt keeps a history of all the commands you’ve typed since you started your current session. It’s easy to access previous commands and save yourself a little typing.
+
+F3: Repeat the previous command.
+Up/Down Arrow: Scroll backward and forwards through previous commands you’ve typed in the current session. You can also press F5 instead of the Up Arrow to scroll backward through the command history.
+Right Arrow (or F1): Recreate the previous command character by character.
+F7: Show a history of previous commands. You can use the Up/Down arrow keys to select any command and then hit Enter to execute the command.
+Alt+F7: Clear the command history.
+F8: Move backward in the command history to commands matching the current command. This is useful if you want to type part of a command you’ve used several times and then scroll back in your history to find the exact command you want to repeat.
+Ctrl+C: Abort the current line you’re typing or a command that is currently executing. Note that this command only aborts a line you’re typing if you have no text selected. If you do have text selected, it copies the text instead.
+And that’s about it. If you use the Command Prompt a lot, you’ll find a lot of these keyboard shortcuts really useful for saving you some time and potentially mistyped commands. Even if you use the Command Prompt only on occasion, learning a few basic shortcuts for getting around more easily is worth your while.
